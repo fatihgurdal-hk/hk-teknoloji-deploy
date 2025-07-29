@@ -5,11 +5,7 @@ on:
     branches:
       - main
   workflow_dispatch:
-
-defaults:
-  run:
-    working-directory: ./TestApi
-
+  
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
